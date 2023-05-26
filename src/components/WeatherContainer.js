@@ -116,19 +116,19 @@ const WeatherContainer = (props) => {
 
               <div className='text-white text-[7rem] mx-auto md:opacity-100 opacity-0 lg:opacity-0 absolute top-12 right-10'>
                 {
-                  data.current.weather_descriptions[0] == 'Haze' && <BsFillCloudHazeFill/>
+                  data.current.weather_descriptions[0] === 'Haze' && <BsFillCloudHazeFill/>
                 }
 
                 {
-                  data.current.weather_descriptions[0] == 'Sunny' && <IoIosSunny className='text-yellow-400'/>
+                  data.current.weather_descriptions[0] === 'Sunny' && <IoIosSunny className='text-yellow-400'/>
                 }
 
                 {
-                  data.current.weather_descriptions[0] == 'Rainy' && <IoMdRainy className='text-blue-400'/>
+                  data.current.weather_descriptions[0] === 'Rainy' && <IoMdRainy className='text-blue-400'/>
                 }
 
                 {
-                  data.current.weather_descriptions[0] == 'Partly cloudy' && <RiSunCloudyFill className='text-white'/>
+                  data.current.weather_descriptions[0] === 'Partly cloudy' && <RiSunCloudyFill className='text-white'/>
                 }
 
               </div>
