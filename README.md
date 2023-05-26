@@ -1,31 +1,34 @@
-# React & Tailwind CSS Starter Pack
+# Weather App
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+## Description
+The Weather App is a simple application that provides real-time weather information for various locations. Users can search for a specific location and get the current weather conditions, temperature, humidity, wind speed.
+
+## Features
+- Search for weather information by location.
+- Display current weather conditions, including temperature, humidity, and wind speed.
+
+## Installation
+1. Clone the repository: `git clone https://github.com/Abhishek-ai-ml/weatherApp.git`
+2. Navigate to the project directory: `cd weatherApp`
+3. Install dependencies: `npm install`
 
 ## Usage
+1. Start the application: `npm start`
+2. Open a web browser and visit `http://localhost:3000`.
+3. Enter a location in the search bar to view the weather information for that location.
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+## Technologies Used
+- HTML, TailWind CSS
+- React.js
+- WeatherStack API
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+## API Key
+To use this application, you will need to obtain an API key fromWeatherStack. Follow these steps to get your API key:
+1. Visit the OpenWeatherMap website: `https://weatherstack.com/`.
+2. Sign up for a free account and verify your email.
+3. Once logged in, go to your account settings and find your API key.
+4. Copy the API key and replace with your actual API key.
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
 
-## Contributing
-
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
